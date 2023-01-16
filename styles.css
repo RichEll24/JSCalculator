@@ -1,0 +1,67 @@
+body {
+    font: monospace;
+    font-size: large;
+}
+
+.calc {
+    width: 400px;
+    background-color: black;
+    color: white;
+  }
+
+.screen {
+    color: white;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: right;
+    padding: 20px 5px;
+  }
+
+.outputFieldBox {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 100px;
+    justify-content: end;
+}
+
+.topRow {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    width: 400px;
+}
+
+.numberRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: stretch;
+    width: 400px
+}
+
+.bottomRow {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 400px;
+}
+
+button {
+color: black;
+background-color: grey;
+border-color: black;
+border-width: 1px;
+height: 100px;
+width: auto
+;
+}
+
+button:hover {
+    background-color: #ebebeb;
+}
+
+.endButton {
+    color:black;
+    background-color: orange;
+    border-color: black;
+    border-width: 1px;
+}
